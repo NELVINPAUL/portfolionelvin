@@ -1,0 +1,371 @@
+<HTML>
+  <HEAD>
+  <META charset="UTF-8">
+  <meta http-equiv="X-UA-Compaible" content="IE=edge">
+  <meta author="Nelvin L.Paul "  name="viewport" content="width=device-width,initial-scale=1.0">
+  <link rel="stylesheet" href="MYPORTFOLIO.CSS">
+  <style type="text/css">
+  *{
+  font-family:'Roboto','sans-serif';
+  }
+  .header{
+  box-sizing:border-box;
+  font-family:sans-serif;
+  background:no-repeat transparent local ;
+  position:fixed;
+  width:10 0%;
+  min-width:100%;
+  min-height:9%;
+  padding:20px 10px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  z-index:100%;
+  top:0;
+  left:0;
+  margin:1px 3px;
+  
+  
+  }
+  .logo{
+  font-size:32px;
+  color:rgb(0,0,0);
+  font-weight:600;
+  margin:15px;
+  }
+  .style{
+	width:90%;
+	height:30%;
+	padding:2%;
+	margin:0 auto;
+	background-color:blue;
+	text-align:center;
+	
+}
+.navbar a {
+text-decoration:none;
+font-size;18px;
+font-weight:500;
+margin-left:40px;
+color:white;
+}
+body{
+background-color:grey;
+}
+.home-content h1{
+font-size:56px;
+font-weight:700;
+}
+.home-content{
+background:transparent;
+max-width:600px;
+margin:5px;
+padding:5px;
+}
+p{
+  margin:0 auto;
+  color:white;
+  }
+  navbar a::before{
+  content:" ";
+  position:absolute;
+  text:0;
+  width:100%;
+  height:100%;
+  top:100%;
+  left:0;
+  width:0;
+  height:2px;
+  transition:.3s;
+  }
+  navbar a:hover:before{
+  width:82;
+  }
+  .logo a:hover{
+  color:red;
+  transition:5s;
+  -webkit-transition-duration:10s;
+  }
+  .home{
+  display:flex;
+  align-items:center;
+  height:100vh;
+  padding:0 10%;
+ 
+  top:3;
+  right:0;
+  background-size:cover;
+  background-position:center;
+  }
+    
+  .download{
+     background:no-repeat red fixed ;
+	 height:10%;
+	 align:center;
+	 width:10%;
+	 border:none;
+	 }
+	 .home-content h3{
+	 font-size:32px;
+	 font-family:"sans-serif";
+	 line-height:1;
+	 }
+	 .home-content p{
+	 font-size:16;
+	 }
+	 .home-content .btn-box{
+	 width:340;
+	 display:flex;
+	 height:60%;
+	 justify-content:space-between;
+	 
+	 color:white;
+	 background-color:transparent;
+	 
+	 }
+	 .btn-box a:nth-child(2):hover{
+	 color:black;
+	 }
+	  .btn-box a:nth-child(2)::before{
+	  background:grey;
+	  }
+	 .btn-box nth-child(2){
+	 background:transparent;
+	 color:black;
+	 }
+	 .btn-box a{
+	 transition:5s;
+	 position:relative;
+	 display:inline-flex;
+	 width:340px;
+	 height:100%;
+	 background:lightgrey;
+	 border:2px solid white;
+	 border-radius:8px;
+	 text-decoration:none;
+	 font-weight:600;
+	 letter-spacing:1px;
+	 justify-content:center;
+	 align-items:center;
+	 z-index:1;
+	 overflow:hidden;
+	 contenteditable:false;
+	 
+	 }
+	 .btn-box a::before{
+	 content:' ';
+	 top:0;
+	 left:0;
+	 width:0;
+	 position:absolute;
+	 height:100%;
+	 background:black;
+	 z-index:-1;
+	 transition:.5s;
+	 
+	 
+	 }
+	 .btn-box a:hover::before{
+	 width:100%;
+	 
+	 }
+	 .home-sci{
+	 position:relative;
+	 bottom:40px;
+	 width:100%;
+	 margin:30px;
+	 background:transparent;
+	 justify-content:space-between;
+	 }
+	 .home-sci a::before{
+	 content:" ";
+	 position:absolute;
+	 top:0;
+	 left:0;
+	 width:100%;
+	 height:100%;
+	 z-index:-1;
+	 
+	 
+	 }
+	 .home-sci a{
+	 display:inline-flex;
+	 position:absolute;
+	 justify-content:center;
+	 align-items:center;
+	 width:40px;
+	 bottom:0;
+	 font-size:16px;
+	 justify-content:space-between;
+	 align-items:center;
+	 height:40px;
+	 background:transparent;
+	 border:none ;
+	 border-radius:50%;
+	 transition-duration:.5s;
+	 }
+	 .section{
+	 margin-top:30px;
+	 padding:15px;
+	 position:static;
+	 color:white;
+	 width:100%;
+	 max-width:100%;
+	 height:200px;
+	 background-color:black;
+	 }
+	 .images{
+	 position:absolute;
+	 display:flex;
+	 justify-content:flex-end;
+	 align-items:center;
+	 flex:3;
+	 
+	 object-fix:cover;
+	 float:right;
+	 right:30px;
+     margin:0 auto;
+	 width:150px;
+	 overflow:hidden;
+	 border-radius:10px;
+	 clear:right;
+	 max-width:100%;
+	 height:auto;
+	 }
+	 @media only screen and(max-width:2400px){
+	 img{
+	 width:360px;
+	 height:160px;
+	 }
+	 }
+	  @media only screen and(min-width:1200px){
+	 img{
+	 width:200px;
+	 }
+	 }
+	 
+	  .home-sci a:hover::before{
+	  width:100%;
+	  }
+	  .small{
+	  font-size:36px;
+	  }
+	 .center{
+	  margin-top:5px;
+	  background-image:url("picfirst.jpg");
+	  background-repeat:no-repeat;
+	  float:right;
+	  height:60px;
+	  position:relative;
+	  
+	  }
+	  .active{
+	  margin-bottom:50px;
+	  }
+	  .html{
+	  width:35px;
+	  height:2px;
+	  }
+	  .css{
+	  width:35px;
+	  height:2px;
+	  }
+	.progress-wrapper {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.progress-bar {
+  height: 20px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.html { width: 71%; background-color: #4CAF50; }
+.css { width: 82%; background-color: #2196F3; }
+.bootstrap { width: 90%; background-color: #f44336; }
+.javascript { width: 79%; background-color: #FFC107; }
+
+.progress-bar-inner {
+  height: 100%;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 20px;
+  color: white;
+}
+
+.section2{
+width:100%;
+background-color:black;
+}
+	 </style>
+	 <body>
+	 <header class="header">
+	 <a href="#"  class="active" class="logo">Code By Nelvin Paul </a>
+	  <nav class="logo">     
+	 <a href="MYPORTFOLIO.HTML">Home</a>
+	 <a font-size="16px" href="#">About Us</a>
+	 <a font-size="16px" href="#">Services</a>
+	 <a font-size="16px" href="#">Contact Us</a>
+	 </nav>
+	 </header>
+	 <section >
+	  
+	
+	 <div class="home-content">
+	
+	 <h1>Hi,Iam Nelvin</h1>
+	 <h3>FrontEnd</h3>
+	 <h3>,Prompt & Junior Cybersecurity</h3>
+	   <img class="images" size="50px" w  src="picfirst.jpg" clear="left" float="left" >
+	
+	 <h3>Engineer</h3>
+	 <p>... with  years of experience </p>
+	 </div>
+	 
+	 <div class="btn-box">
+	 <button style="margin:15px"  href="">Contacts </a><br/>
+	 <button style="margin:15px"  href="nelvincv.docx"><a href="nelvincv.docx">Download CV </a><br/>
+	 </div>
+	 <main>
+	 <section class >
+	<div class="progress-wrapper">
+  <div class="progress-bar html">
+    <div class="progress-bar-inner">HTML - 71%</div>
+  </div>
+</div>
+
+<div class="progress-wrapper">
+  <div class="progress-bar css">
+    <div class="progress-bar-inner">CSS - 82%</div>
+  </div>
+</div>
+
+<div class="progress-wrapper">
+  <div class="progress-bar bootstrap">
+    <div class="progress-bar-inner">Bootstrap - 90%</div>
+  </div>
+</div>
+
+<div class="progress-wrapper">
+  <div class="progress-bar javascript">
+    <div class="progress-bar-inner">JavaScript - 79%</div>
+  </div>
+</div>
+	 </section>
+	 <section class="section">
+	 <a href="#"></a>
+	 <a href="#">TW</a>
+	 <a href="#">IG</a>
+	 <a href="#">WHATSAPP</a>
+		</section>
+		</main>
+	 
+	 </section>
+	 <section>
+	 <div class="html">
+	 <div>
+	 </section>
+	 </body>
+	 </html>
